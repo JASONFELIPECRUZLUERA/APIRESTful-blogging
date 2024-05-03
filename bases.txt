@@ -1,0 +1,39 @@
+FUNCIONES DEL USUARIO
+
+Gestion de cuentas : 
+1. registrarse en la plataforma (crearse un perfil) |LISTO|
+2. actualizar sus datos personales |LISTO|
+3. eliminar sus cuenta |LISTO| 
+
+Gestion de publicaciones:
+1. Crear nuevas publicaciones |LISTO|
+2. Actualizar sus propias publicaciones |LISTO|
+3. Eliminar sus propias publicaciones |LISTO|
+4. Ver sus propias publicaciones y las de otros usuarios, ver todas la publicaciones |LISTO|
+5. Filtrar las publicaciones por categorías |LISTO|
+6. Buscar publicaciones por título |LISTO|
+
+Gestion de comentarios:
+1. Comentar en las publicacione
+2. Actualizar sus propios comentarios
+3. Eliminar sus propios comentarios
+
+
+FUNCIONES DEL ADMINISTRADOR
+
+Gestion de cuentas:
+(TODAS LAS DEL USUARIO)
+4. Ver todos los usuarios registrados en la plataforma |LISTO|
+
+Gestion de publicaciones:
+(TODAS LAS DEL USUARIO) |LISTO|
+
+Gestion de comentarios:
+(TOAS LAS DEL USUARIO)
+
+Gestion de categorías:
+1. El administrador tendrá acceso completo para crear, leer, actualizar y eliminar categorías (CRUD).
+
+
+
+
