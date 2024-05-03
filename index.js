@@ -39,7 +39,7 @@ app.delete('/api/deletecomment/:id_comentarios', deleteComment );
 app.get('/api/categories/:id_usuarios',filter,allCategories );
 app.post('/api/createcategories/:id_usuarios',filter, createCategory);
 app.put('/api/modifycategories/:id_usuarios/:id_categorias',filter,updateCategory );
-app.delete('/api/deletecategories/:id_usuarios',filter,deleteCategory );
+app.delete('/api/deletecategories/:id_usuarios/:id_categorias',filter,deleteCategory );
 
 swaggerDocs(app)
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/api-docs`))

@@ -546,12 +546,18 @@
         }
       }
     },
-    "/api/deletecategories/{id_usuarios}": {
+    "/api/deletecategories/{id_usuarios}/{id_categorias}": {
       "delete": {
         "description": "",
         "parameters": [
           {
             "name": "id_usuarios",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "id_categorias",
             "in": "path",
             "required": true,
             "type": "string"

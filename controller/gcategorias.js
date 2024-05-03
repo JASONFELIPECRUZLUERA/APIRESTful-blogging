@@ -65,7 +65,7 @@ export const deleteCategory = async (req,res) => {
         const result = await pool.execute('DELETE FROM categorias WHERE id_categorias = ?', [id_categorias]);
 
         if (result.affectedRows === 0) {
-            return res.status(404).json({ message: 'Publicación no encontrada' });
+            return res.status(404).json({ message: 'Categoria no encontrada' });
         }
 
         res.json({ message: 'Categoria eliminada correctamente' });
